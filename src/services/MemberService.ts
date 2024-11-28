@@ -6,7 +6,7 @@ export interface Member {
     age: number;
 }
 
-const API_URL = 'http://localhost:9090/api/members?type=teacher';
+const API_URL = 'https://backend-web-app-avhvardaaag0ffc0.francecentral-01.azurewebsites.net/api/members?type=teacher';
 
 export const getMembers = async (): Promise<Member[]> => {
     try {
