@@ -8,7 +8,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 
-const browserHistory = createBrowserHistory({ basename: '' });
+const browserHistory = createBrowserHistory({});
 var reactPlugin = new ReactPlugin();
 // *** Add the Click Analytics plug-in. ***
 /* var clickPluginInstance = new ClickAnalyticsPlugin();
