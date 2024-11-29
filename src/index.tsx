@@ -17,7 +17,7 @@ var reactPlugin = new ReactPlugin();
 }; */
 var appInsights = new ApplicationInsights({
     config: {
-        connectionString: 'YOUR_CONNECTION_STRING_GOES_HERE',
+        connectionString: 'InstrumentationKey=ebab4efd-6aca-46a2-b692-57dc408ccca3;IngestionEndpoint=https://francecentral-1.in.applicationinsights.azure.com/;LiveEndpoint=https://francecentral.livediagnostics.monitor.azure.com/;ApplicationId=a2ce0ebc-7426-4efb-b3e0-2d19111fc6d1',
         enableAutoRouteTracking: true,
         // *** If you're adding the Click Analytics plug-in, delete the next line. ***
         extensions: [reactPlugin],
