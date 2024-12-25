@@ -15,8 +15,7 @@ export const getMembers = async (query: string = ''): Promise<Member[]> => {
         if (!response.ok) {
             throw new Error('Failed to fetch members');
         }
-        const data: Member[] = await response.json();
-        return data;
+        return await response.json();
     } catch (error) {
         console.error(error);
         return [];
